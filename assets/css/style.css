@@ -34,19 +34,19 @@ body {
 }
 .container {
   margin: 0;
-  padding: 0 400px;
+  padding: 0 350px;
 }
 .container2 {
   margin: 0;
-  padding: 100px 400px;
+  padding: 100px 350px;
 }
 .container3 {
   margin: 0;
-  padding: 80px 400px;
+  padding: 80px 350px;
 }
 .p-y-250 {
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 a {
   text-decoration: none;
@@ -255,7 +255,7 @@ p {
   margin-top: 30px;
 }
 .comp-case {
-  padding: 100px 0 100px 400px;
+  padding: 100px 0 100px 300px;
 }
 .comp-case-art {
   width: 39%;
@@ -386,7 +386,7 @@ p {
   padding: 18px 55px;
   margin-top: 16px;
   text-align: center;
-  width: 200px;
+  width: 180px;
 }
 
 .brand-links {
