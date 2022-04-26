@@ -15,17 +15,17 @@ body {
 .flex-start {
   justify-content: flex-start;
 }
-.flex50 {
+.flex-50 {
   width: 50%;
 }
 
-.flex40 {
+.flex-40 {
   width: 40%;
 }
-.flex31 {
+.flex-30 {
   width: 31%;
 }
-.flex10 {
+.flex-10 {
   width: 10%;
 }
 .center {
@@ -33,21 +33,18 @@ body {
   text-align: center;
 }
 .container {
-  /* max-width: 1300px; */
   margin: 0;
   padding: 0 400px;
 }
 .container2 {
-  /* max-width: 1300px; */
   margin: 0;
   padding: 100px 400px;
 }
 .container3 {
-  /* max-width: 1300px; */
   margin: 0;
   padding: 80px 400px;
 }
-.paddingLR250 {
+.p-y-250 {
   padding-left: 400px;
   padding-right: 400px;
 }
@@ -106,7 +103,6 @@ p {
   color: var(--text-color);
 }
 
-/*header-navbar*/
 .header {
   background-color: var(--main-color);
   color: var(--third-color);
@@ -126,7 +122,6 @@ p {
   color: var(--third-color);
 }
 
-/*hero-navbar*/
 .hero-navbar {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -137,7 +132,7 @@ p {
 .hero-navbar a {
   margin-left: 35px;
   color: var(--main-color);
-  font-weight: 700
+  font-weight: 700;
 }
 .brand a {
   margin-left: 0;
@@ -151,7 +146,6 @@ p {
   background-color: var(--second-color);
 }
 
-/*hero-heading*/
 .hero {
   background-image: url(../media/hero/h1_hero.jpg);
   background-size: cover;
@@ -172,7 +166,6 @@ p {
   margin-bottom: 50px;
 }
 
-/*business planning*/
 .b-planning {
   background-color: var(--bg-color);
 }
@@ -201,7 +194,6 @@ p {
   font-weight: 500;
 }
 
-/*trusted clients*/
 .we-trust {
   margin: 50px 0;
 }
@@ -231,7 +223,6 @@ p {
   font-size: 26px;
 }
 
-/*services*/
 .services-home h2 {
   text-transform: capitalize;
   margin-bottom: 100px;
@@ -259,7 +250,6 @@ p {
   margin-top: 100px;
 }
 
-/*completed cases*/
 .completed-cases-home {
   background-color: var(--bg-color);
   margin-top: 30px;
@@ -294,7 +284,6 @@ p {
   margin-top: 30px;
 }
 
-/*testimonial*/
 .testimonial-img {
   width: 70px;
   margin-bottom: 30px;
@@ -326,7 +315,6 @@ p {
   width: 80px;
 }
 
-/*recent news*/
 .recent-news-home h2 {
   margin-bottom: 70px;
   margin-top: -50px;
@@ -357,7 +345,6 @@ p {
   text-transform: uppercase;
 }
 
-/*request for call back*/
 .request-home {
   background: var(--main-color);
   padding-top: 70px;
@@ -402,7 +389,6 @@ p {
   width: 200px;
 }
 
-/*footer*/
 .brand-links {
   width: 25%;
 }
@@ -463,7 +449,6 @@ small {
   padding-bottom: 30px;
 }
 
-/*page-2 about*/
 .about h2 {
   color: var(--third-color);
   font-size: 34px;
@@ -476,7 +461,6 @@ small {
   padding-bottom: 50px;
 }
 
-/*page-3 our services*/
 .services h2 {
   color: var(--third-color);
   font-size: 34px;
@@ -490,7 +474,6 @@ small {
   padding-top: 30px;
 }
 
-/*page-4 case study*/
 .cases {
   background-image: url(../media/hero/cases_hero.jpg);
   background-size: cover;
@@ -524,23 +507,22 @@ small {
 .content p {
   font-size: 10px;
 }
-.col912 {
+.col-12 {
   background-image: url(../media/cases/completed_case_2.png);
 }
-.col913 {
+.col-13 {
   background-image: url(../media/cases/completed_case_3.png);
 }
-.col914 {
+.col-14 {
   background-image: url(../media/cases/completed_case_4.png);
 }
-.col915 {
+.col-15 {
   background-image: url(../media/cases/completed_case_5.png);
 }
-.col916 {
+.col-16 {
   background-image: url(../media/cases/completed_case_6.png);
 }
 
-/*page-5 our blog*/
 .blog {
   background-image: url(../media/hero/blog_hero.jpg);
   background-size: cover;
@@ -552,14 +534,14 @@ small {
 .blog-article {
   width: 65%;
 }
-.blg-artcls {
+.blg-article {
   box-shadow: 2px 2px 2px 2px #f8f8f8;
   position: relative;
 }
-.blg-artcls img {
+.blg-article img {
   width: 100%;
 }
-.blg-artcls date {
+.blg-article date {
   position: absolute;
   bottom: 160px;
   left: 30px;
@@ -571,21 +553,21 @@ small {
   font-size: small;
   text-align: center;
 }
-.blg-artcls date span {
+.blg-article date span {
   font-size: x-large;
 }
-.blg-artcls h4 {
+.blg-article h4 {
   padding: 40px 0 20px 20px;
 }
-.blg-artcls p {
+.blg-article p {
   padding: 0 40px 20px 20px;
   font-size: 10px;
   line-height: 2;
 }
-.blg-artcls i {
+.blg-article i {
   margin-right: 10px;
 }
-.blg-artcls span {
+.blg-article span {
   margin: 0 10px;
 }
 .blog-2 {
@@ -656,7 +638,7 @@ small {
 .category hr,
 .recent-post hr,
 .tag-clouds hr,
-.insta-feed hr,
+.instagram-feed hr,
 .newsletter hr {
   border: 1px solid #f0e9fe;
 }
@@ -664,14 +646,14 @@ small {
   width: 28%;
   height: 55px;
 }
-.RPA-data {
+.pa-data {
   width: 68%;
 }
 .recent-post,
 .tag-clouds,
 .category,
 .form-aside,
-.insta-feed,
+.instagram-feed,
 .newsletter {
   margin-top: 20px;
   padding: 20px;
@@ -686,20 +668,20 @@ small {
 .recent-post h4,
 .category h4,
 .tag-clouds h4,
-.insta-feed h4,
+.instagram-feed h4,
 .newsletter h4 {
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 30px;
 }
-.RPA-data h4 {
+.pa-data h4 {
   padding-top: 10px;
   margin-bottom: 5px;
   font-size: 11px;
   font-weight: 600;
   color: var(--main-color);
 }
-.RPA-data date {
+.pa-data date {
   font-size: 9px;
   color: var(--main-color);
   text-transform: capitalize;
@@ -713,7 +695,7 @@ small {
   margin-bottom: 5px;
   margin-right: 5px;
 }
-.insta-images img {
+.instagram-images img {
   width: 30%;
   margin-bottom: 10px;
 }
@@ -728,7 +710,6 @@ small {
   margin-top: 100px;
 }
 
-/*page-6 contact us*/
 .contact {
   background-image: url(../media/hero/contact_hero.jpg);
   background-size: cover;
