@@ -110,6 +110,8 @@ p {
   padding-top: 12px;
   font-weight: 500;
   padding-bottom: 12px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 .header i {
   margin-right: 6px;
@@ -125,6 +127,8 @@ p {
 .hero-navbar {
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 .hero-navbar .brand img {
   width: 70px;
